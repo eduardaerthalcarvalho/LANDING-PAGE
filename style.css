@@ -8,13 +8,13 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
+      background: #ffffff;
+      color: #060303;
     }
  
     header {
-      background: #0c70d4;
-      color: white;
+      background: #fffbfb;
+      color: rgb(186, 184, 217);
       padding: 20px;
     }
  
@@ -46,7 +46,7 @@
     }
  
     .menu a {
-      color: white;
+      color: rgb(10, 10, 10);
       text-decoration: none;
       font-weight: 500;
     }
@@ -58,8 +58,8 @@
  
     .hero {
       padding: 80px 0;
-      background: #033e8a;
-      color: white;
+      background: #edf1fb;
+      color: rgb(0, 0, 0);
       text-align: center;
     }
  
@@ -73,14 +73,15 @@
       margin-bottom: 30px;
     }
  
-    .hero button {
+    .hero a {
       padding: 12px 24px;
-      background: white;
-      color: #3498db;
+      background: rgb(255, 255, 255);
+      color: #000000;
       border: none;
       cursor: pointer;
       font-weight: bold;
       border-radius: 5px;
+      text-decoration: none;
     }
  
     section {
@@ -95,14 +96,14 @@
  
     .grid-item {
       flex: 1 1 250px;
-      background: white;
+      background: rgb(255, 255, 255);
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
  
     footer {
-      background: #2c3e50;
+      background: #000000;
       color: white;
       text-align: center;
       padding: 20px;
@@ -113,7 +114,7 @@
       .menu {
         display: none;
         flex-direction: column;
-        background: #2c3e50;
+        background: #fefefe;
         position: absolute;
         top: 70px;
         right: 20px;
