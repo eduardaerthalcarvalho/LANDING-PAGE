@@ -3,140 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
   <title>Landing Page</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
- 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-    }
- 
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 20px;
-    }
- 
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: auto;
-    }
- 
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
- 
-    .logo {
-      font-size: 24px;
-      font-weight: bold;
-    }
- 
-    .menu {
-      display: flex;
-      gap: 20px;
-    }
- 
-    .menu a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-    }
- 
-    .menu-toggle {
-      display: none;
-      cursor: pointer;
-    }
- 
-    .hero {
-      padding: 80px 0;
-      background: #3498db;
-      color: white;
-      text-align: center;
-    }
- 
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
- 
-    .hero p {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
- 
-    .hero button {
-      padding: 12px 24px;
-      background: white;
-      color: #3498db;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-      border-radius: 5px;
-    }
- 
-    section {
-      padding: 60px 0;
-    }
- 
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
- 
-    .grid-item {
-      flex: 1 1 250px;
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
- 
-    footer {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
- 
-    /* Responsividade */
-    @media (max-width: 768px) {
-      .menu {
-        display: none;
-        flex-direction: column;
-        background: #2c3e50;
-        position: absolute;
-        top: 70px;
-        right: 20px;
-        width: 200px;
-        padding: 10px;
-      }
- 
-      .menu.active {
-        display: flex;
-      }
- 
-      .menu-toggle {
-        display: block;
-      }
-    }
-  </style>
 </head>
 <body>
   <header>
     <div class="container">
       <nav>
-        <div class="logo">Eduarda</div>
+        <div class="logo">Portifolio</div>
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <div class="menu" id="menu">
           <a href="#sobre">Sobre</a>
@@ -149,16 +23,19 @@
  
   <section class="hero">
     <div class="container">
-      <h1>Bem-vindo à nossa página</h1>
-      <p>Apresente aqui o seu produto, serviço ou ideia de forma clara e objetiva.</p>
+      <h1>Bem-Vindo ao meu Portifolio</h1>
+      <p></p>
       <button>Saiba Mais</button>
     </div>
   </section>
  
   <section id="sobre">
     <div class="container">
-      <h2>Sobre Nós</h2>
-      <p>Um breve parágrafo sobre o que a empresa faz, sua missão, visão ou diferencial.</p>
+      <h2>Sobre Mim</h2>
+      <p id="sobre-texto">    Sou estudante de Técnico em Ciência de Dados pela Escola Heriberto Hulse, com uma grande paixão por programação e análise de dados. Ao longo do curso, venho aprofundando meus conhecimentos em linguagens de programação como Python e SQL, além de explorar ferramentas e técnicas que possibilitam transformar grandes volumes de dados em insights valiosos.
+    Tenho um interesse crescente em áreas como Inteligência Artificial, buscando sempre aplicar a teoria aprendida em projetos práticos, tanto no ambiente acadêmico quanto em projetos pessoais. Acredito que a combinação entre programação e dados pode transformar negócios e melhorar a tomada de decisões.
+    Estou sempre em busca de novos desafios para expandir minhas habilidades e me preparar para o mercado de trabalho, seja por meio de estágios, projetos colaborativos ou estudos autônomos.
+    Objetivos futuros: Continuar meu desenvolvimento nas áreas de análise preditiva e visualização de dados, além de me aprofundar no estudo de modelos estatísticos para contribuir de maneira ainda mais significativa no campo de Ciência de Dados.</p>
     </div>
   </section>
  
