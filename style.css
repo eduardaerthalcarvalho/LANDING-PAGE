@@ -24,8 +24,9 @@
       margin: auto;
     }
     
-    #sobre-texto  {
+    .sobre-texto  {
       text-align: justify;
+      text-indent: 30px;
     }
     
     nav {
